@@ -7,7 +7,7 @@ const router=express.Router();
 
 router.get("/",AuthenticateUser,getBookmark);
 router.post("/:data_id",AuthenticateUser,addBookmark);
-router.delete("/:bookmark_id",AuthenticateUser,deleteBookmark);
+router.delete("/:data_id",AuthenticateUser,deleteBookmark);
 
 
 

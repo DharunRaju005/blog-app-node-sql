@@ -29,7 +29,7 @@ const addComments=(req,res)=>{
                 }
                 else{
                     //console.log(data.length);
-                    return res.status(403).json("U Already Commented, U can Update your comment,you can put more than 1 comment")
+                    return res.status(403).json("U Already Commented, U can Update your comment,you can't put more than 1 comment")
                 }
             })
         }
